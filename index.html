@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>kupeck</title>
+<title>kupeck's font library</title>
 <link rel="stylesheet" href="fonts.css">
 <meta charset="UTF-8">
 <meta name="description" content="kupeck's font library">
@@ -27,6 +27,23 @@ div.main {
     font-family: 'Roboto Mono', monospace;
     padding: 0 5px;
 }
+table {
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr td, table tr th {
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+}
+.s48 {
+    font-size: 48px;
+}
+.w10 {
+    position: relative;
+    width: 10%;
+}
 </style>
 </head>
 <body>
@@ -35,9 +52,27 @@ div.main {
 <br>
 <p>Instead doing something normal, I here at kupeck's font library give you one line of css or html code, and you paste that into your website, and the fonts just work!</p>
 <br>
-<p>Here will be a font showcase in the future, but now, there are only the 1-code-liners</p>
-<br>
 <p>CSS: <a class="codeblock">@import url('https://raw.githubusercontent.com/kupeck/fonts/master/fonts.css');</a><br><br>HTML: <a class="codeblock">&#60;link rel="stylesheet" href="https://raw.githubusercontent.com/kupeck/fonts/master/fonts.css"&#62</a></p>
+<p>CSS rules to specify families: <a class="codeblock">font-family: '***';</a> replace *** with the font's name</p>
+<br><br>
+<table>
+    <tr>
+        <th><br>Font Name<br><br></th>
+        <th><br>Font Showcase (72px)<br><br></th>
+    </tr>
+    <tr>
+        <td class="w10">Lexend Deca</td>
+        <td class="s48" style="font-family: Lexend Deca;">ABCDEFGHIJKMLNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>The quick brown fox jumps over the lazy dog.<br>1234567890 ˇ ´ ' ¨ . ,</td>
+    </tr>
+    <tr>
+        <td>Roboto Mono</td>
+        <td class="s48" style="font-family: Roboto Mono;">ABCDEFGHIJKMLNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>The quick brown fox jumps over the lazy dog.<br>1234567890 ˇ ´ ' ¨ . ,</td>
+    </tr>
+    <tr>
+        <td>Guardian</td>
+        <td class="s48" style="font-family: Guardian;">ABCDEFGHIJKMLNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>The quick brown fox jumps over the lazy dog.<br>1234567890 ˇ ´ ' ¨ . ,</td>
+    </tr>
+</table><br>
 </div>
 </body>
 </html>
